@@ -22,7 +22,6 @@ const auth = getAuth();
 const analytics = getAnalytics(app);
 
 const main = document.getElementById("main");
-const returnBtn = document.getElementById("return-btn");
 
 const emailInput = document.getElementById("email");
 const passwordInput = document.getElementById("password");
@@ -35,7 +34,7 @@ const signupPasswordIn = document.getElementById("password-signup");
 const confirmSignUpPasswordIn = document.getElementById(
   "confirm-password-signup"
 );
-const createacct = document.getElementById("create-acct");
+// const createacct = document.getElementById("create-acct");
 
 // Start with this
 const createacctbtn = document.getElementById("create-acct-btn");
