@@ -233,4 +233,14 @@ input {
     margin-top: 0px;
 }
 
+.button-x {
+	margin-top: 100px;
+	/* background-color: #101812; */
+}
+
+
+.button-x > a {
+	color: #FFFFFF;
+}
+
 

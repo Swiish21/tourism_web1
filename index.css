@@ -132,6 +132,12 @@ body { background: var(--white); }
   background: #283a2c;
   border-color: #283a2c;
 }
+.btn-primary > a {
+  color: white;
+}
+.btn-primary > a:hover {
+  color: #101812;
+}
 
 .btn-primary:is(:hover, :focus) {
   background: #daddc5;
