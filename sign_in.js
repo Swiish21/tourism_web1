@@ -1,6 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import {getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword,} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -80,7 +81,7 @@ createacctbtn.addEventListener("click", function () {
         const user = userCredential.user;
         // ...
         window.alert("Success! Account created.");
-        window.location = "./destinations/destinations.html";
+        window.location = "index.html";
       })
       .catch((error) => {
         const errorCode = error.code;
